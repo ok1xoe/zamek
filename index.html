@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Zakletý hrad</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <canvas id="screen" width="256" height="192"></canvas>
+
+    <div id="touch" aria-label="Dotykové ovládání">
+        <div class="pad">
+            <button data-act="up" aria-label="Nahoru">▲</button>
+            <button data-act="left" aria-label="Vlevo">◀</button>
+            <button data-act="down" aria-label="Dolů">▼</button>
+            <button data-act="right" aria-label="Vpravo">▶</button>
+        </div>
+        <div class="acts">
+            <button data-act="pause" aria-label="Pauza">❚❚</button>
+            <button data-act="act" class="act" aria-label="Položit">POLOŽ</button>
+            <button data-act="jump" class="jump" aria-label="Skok">SKOK</button>
+        </div>
+    </div>
+
+    <script src="js/font.js"></script>
+    <script src="js/gfx.js"></script>
+    <script src="js/world.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/sprites.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/sound.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
